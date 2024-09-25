@@ -9,9 +9,10 @@ let passportMarried = {
 
 let copyPassportMarried = {
   ...passportMarried,
-  married: true,
   address: { ...passportMarried.address },
 }
+
+copyPassportMarried.married = true
 
 console.log(passportMarried)
 console.log(copyPassportMarried)
