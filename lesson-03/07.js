@@ -6,6 +6,6 @@ const numbers = [
 
 numbers.forEach(
   (row, rowIndex) =>
-    (numbers[rowIndex] = row.filter((number) => number % 2 !== 0))
+    (numbers[rowIndex] = row.filter((number) => number % 2 === 0))
 )
 console.log(numbers)
